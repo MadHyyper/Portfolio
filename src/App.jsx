@@ -1,11 +1,11 @@
 import './App.css'
-import Home from "./components/Home.jsx";
+import Background from "./components/Background.jsx";
 
 function App() {
 
   return (
     <>
-      <Home />
+      <Background />
 
       <main style={{ position: 'relative', zIndex: 1 }}>
         <h1>Portfolio</h1>

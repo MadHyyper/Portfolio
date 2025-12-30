@@ -32,6 +32,8 @@ export default function Home() {
                     }
                 },
 
+                fpsLimit: 120,
+
                 particles: {
                     color: {
                         value: "#f6f889ff" // White particles
@@ -46,7 +48,7 @@ export default function Home() {
                         value: 3 // Medium size
                     },
                     number: {
-                        value: 80
+                        value: 220
                     }
                 },
             }}
