@@ -1,10 +1,13 @@
 import { useState, useEffect } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadTrianglesPreset } from "@tsparticles/preset-triangles";
+import { isMobile } from "react-device-detect";
 
 export default function Home() {
     const [init, setInit] = useState(false);
+    const particleCount = isMobile ? 60 : 220;
 
+    // Initialize particle engine
     useEffect(() => {
         initParticlesEngine(async (engine) => {
             await loadTrianglesPreset(engine);
@@ -48,7 +51,7 @@ export default function Home() {
                         value: 4 // Medium size
                     },
                     number: {
-                        value: 220
+                        value: particleCount, // 40 for mobile, 220 for desktop.
                     }
                 },
             }}
