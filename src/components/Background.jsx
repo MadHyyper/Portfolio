@@ -42,10 +42,10 @@ export default function Home() {
                         color: "rgba(36, 97, 122, 1)", // Grey links
                     },
                     move: {
-                        speed: 2 // Moderate speed
+                        speed: 1 // Moderate speed
                     },
                     size: {
-                        value: 3 // Medium size
+                        value: 4 // Medium size
                     },
                     number: {
                         value: 220
