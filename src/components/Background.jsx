@@ -36,7 +36,7 @@ export default function Home() {
 
                 particles: {
                     color: {
-                        value: "#f6f889ff" // White particles
+                        value: "#fef08a" // White particles
                     },
                     links: {
                         color: "rgba(36, 97, 122, 1)", // Grey links
