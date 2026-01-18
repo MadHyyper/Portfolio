@@ -5,7 +5,7 @@ import { isMobile } from "react-device-detect";
 
 export default function Home() {
     const [init, setInit] = useState(false);
-    const particleCount = isMobile ? 60 : 220;
+    const particleCount = isMobile ? 45 : 220;
 
     // Initialize particle engine
     useEffect(() => {
@@ -51,7 +51,7 @@ export default function Home() {
                         value: 4 // Medium size
                     },
                     number: {
-                        value: particleCount, // 40 for mobile, 220 for desktop.
+                        value: particleCount, // 45 for mobile, 220 for desktop.
                     }
                 },
             }}
