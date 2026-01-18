@@ -9,13 +9,10 @@ export default function Home() {
         <h1 className="font-mono text-white pb-4">Welcome</h1>
         <div className="max-w-6xl mx-auto p-4">
             <p className="font-mono text-2xl text-white">
-                My name is <span className="text-yellow-200">Conner Houdek</span>. I'm a software engineer who enjoys 
-                <span className="text-yellow-200"> creating</span> new projects and <span className="text-yellow-200">solving problems</span>. 
-                I've worked on a variety of projects including <span className="text-yellow-200">websites</span>, 
-                <span className="text-yellow-200"> android apps</span>, and <span className="text-yellow-200">embedded systems development</span>. 
-                I also have experience with <span className="text-yellow-200">managing databases</span>, <span className="text-yellow-200">CI/CD pipelines</span>,
-                <span className="text-yellow-200"> Docker</span>, and several other <span className="text-yellow-200">frameworks</span> and <span className="text-yellow-200">programming languages </span>
-                 across both personal projects and my academic career.</p>
+              My name is <span className="text-yellow-200">Conner Houdek</span>. I am a Junior in software engineering at Iowa State University who is <span className="text-yellow-200">passionate</span> about <span className="text-yellow-200">software</span> and <span className="text-yellow-200">problem solving</span>. 
+              I am experienced with several <span className="text-yellow-200">languages</span>, <span className="text-yellow-200">frameworks</span>, and <span className="text-yellow-200">tools </span> 
+              alongside a growing list of <span className="text-yellow-200">completed</span> and <span className="text-yellow-200">varied</span> projects. I am Seeking opportunities to utilize skills 
+              with <span className="text-yellow-200">web development</span>, <span className="text-yellow-200">embedded systems</span>, and <span className="text-yellow-200">app development</span>.</p>
         </div>
 
         {/* Container which stores icon-button links to github and linkedin */}
