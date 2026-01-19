@@ -1,5 +1,6 @@
 import "../../App.css";
 import { SiC, SiPython, SiJavascript, SiHtml5, SiCss3, SiPhp, SiAssemblyscript } from "react-icons/si";
+import { FaJava } from "react-icons/fa";
 import Csharp from "../../assets/Csharp.svg";
 
 
@@ -19,14 +20,6 @@ export default function Languages() {
                 <p className="font-mono text-black text-4xl">JavaScript</p>
             </div>
             <div className="flex flex-col justify-center items-center px-8 py-4 bg-yellow-200 rounded-xl">
-                <SiHtml5 className="text-black text-8xl pb-4"></SiHtml5>
-                <p className="font-mono text-black text-4xl">HTML</p>
-            </div>
-            <div className="flex flex-col justify-center items-center px-8 py-4 bg-yellow-200 rounded-xl">
-                <SiCss3 className="text-black text-8xl pb-4"></SiCss3>
-                <p className="font-mono text-black text-4xl">CSS</p>
-            </div>    
-            <div className="flex flex-col justify-center items-center px-8 py-4 bg-yellow-200 rounded-xl">
                 <SiPhp className="text-black text-8xl pb-4"></SiPhp>
                 <p className="font-mono text-black text-4xl">PHP</p>
             </div>   
@@ -37,7 +30,11 @@ export default function Languages() {
             <div className="flex flex-col justify-center items-center px-8 py-4 bg-yellow-200 rounded-xl">
                 <img src={Csharp} alt="C#" className="h-25 pb-2" />
                 <p className="font-mono text-black text-4xl">C#</p>
-            </div>   
+            </div> 
+            <div className="flex flex-col justify-center items-center px-8 py-4 bg-yellow-200 rounded-xl">
+                <FaJava className="text-black text-8xl pb-4"></FaJava>
+                <p className="font-mono text-black text-4xl">Java</p>
+            </div>    
         </div>
     )
 }

@@ -2,7 +2,7 @@ import "../../App.css";
 import { SiReact, SiLaravel, SiDotnet, SiAndroidstudio } from "react-icons/si";
 
 
-export default function Languages() {
+export default function Frameworks() {
     return (
         <div className="grid grid-cols-4 gap-4">
             <div className="flex flex-col justify-center items-center px-8 py-4 bg-yellow-200 rounded-xl">
