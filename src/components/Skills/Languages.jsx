@@ -1,5 +1,5 @@
 import "../../App.css";
-import { SiC, SiPython, SiJavascript, SiHtml5, SiCss3, SiPhp, SiAssemblyscript } from "react-icons/si";
+import { SiC, SiPython, SiJavascript, SiPhp, SiAssemblyscript } from "react-icons/si";
 import { FaJava } from "react-icons/fa";
 import Csharp from "../../assets/Csharp.svg";
 
