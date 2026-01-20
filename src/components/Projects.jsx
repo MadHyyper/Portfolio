@@ -39,6 +39,19 @@ export default function Projects () {
                             <span className="text-yellow-200 text-2xl">Github</span>
                     </a>
                 </div>
+                {/* Portfolio */}
+                <div className="flex flex-col items-center px-6 py-3 bg-yellow-200 rounded-xl">
+                    <h2 className="font-mono text-black text-4xl pb-2">This Website!</h2>
+                    <p className="font-mono text-black text-xl pb-2">
+                        Portfolio website created with React and JavaScript using tsparticles.
+                    </p>
+                    <a
+                        href="https://github.com/MadHyyper/Portfolio"
+                        target="_blank"
+                        className="flex items-center px-3 py-2 bg-black text-black rounded-xl hover:scale-110 transition-transform">
+                            <span className="text-yellow-200 text-2xl">Github</span>
+                    </a>
+                </div>
                 {/* Memory Game */}
                 <div className="flex flex-col items-center px-6 py-3 bg-yellow-200 rounded-xl">
                     <h2 className="font-mono text-black text-4xl pb-2">Memory Game</h2>
@@ -53,7 +66,7 @@ export default function Projects () {
                             <span className="text-yellow-200 text-2xl">Github</span>
                     </a>
                 </div>
-                {/* Memory Game */}
+                {/* Color Splash */}
                 <div className="flex flex-col items-center px-6 py-3 bg-yellow-200 rounded-xl">
                     <h2 className="font-mono text-black text-4xl pb-2">Color Splash</h2>
                     <p className="font-mono text-black text-xl pb-2">
