@@ -5,11 +5,11 @@ export default function Projects () {
         <main style={{ position: 'relative', zIndex: 1 }}>
             <h1 className="font-mono text-white pb-4">Projects</h1>
             <div className="grid grid-cols-4 gap-4">
-                <div className="flex flex-col justify-center items-center px-6 py-3 bg-yellow-200 rounded-xl">
+                {/* Tripmates */}
+                <div className="flex flex-col items-center px-6 py-3 bg-yellow-200 rounded-xl">
                     <h2 className="font-mono text-black text-4xl pb-2">Tripmates</h2>
                     <p className="font-mono text-black text-xl pb-2">
-                        An itinerary planner app developed with Android studio on the 
-                        frontend and Spring boot on the backend.
+                        An itinerary planner app developed with Android studio, Spring Boot, and Java.
                     </p>
                     <a
                         href="https://www.youtube.com/watch?v=Q8cpGkN5yD8&list=PL6BdlkdKLEB-RhBjBTGRFWf87xXYjf9tq&index=18"
@@ -19,6 +19,48 @@ export default function Projects () {
                     </a>
                     <a
                         href="https://github.com/MadHyyper/Tripmates"
+                        target="_blank"
+                        className="flex items-center px-3 py-2 bg-black text-black rounded-xl hover:scale-110 transition-transform">
+                            <span className="text-yellow-200 text-2xl">Github</span>
+                    </a>
+                </div>
+                {/* Taco Truck */}
+                <div className="flex flex-col items-center px-6 py-3 bg-yellow-200 rounded-xl">
+                    <h2 className="font-mono text-black text-4xl pb-2">Taco Truck</h2>
+                    <p className="font-mono text-black text-xl pb-2">
+                        A group project where we wrote C scripts to embedded hardware 
+                        to make an autonomous motor vehicle deliver prop tacos to points
+                        on a map.
+                    </p>
+                    <a
+                        href="https://github.com/MadHyyper/Taco-Truck-Project"
+                        target="_blank"
+                        className="flex items-center px-3 py-2 bg-black text-black rounded-xl hover:scale-110 transition-transform">
+                            <span className="text-yellow-200 text-2xl">Github</span>
+                    </a>
+                </div>
+                {/* Memory Game */}
+                <div className="flex flex-col items-center px-6 py-3 bg-yellow-200 rounded-xl">
+                    <h2 className="font-mono text-black text-4xl pb-2">Memory Game</h2>
+                    <p className="font-mono text-black text-xl pb-2">
+                        A console game written with C using a PS4 controller
+                        for input.
+                    </p>
+                    <a
+                        href="https://github.com/MadHyyper/Memory-Game"
+                        target="_blank"
+                        className="flex items-center px-3 py-2 bg-black text-black rounded-xl hover:scale-110 transition-transform">
+                            <span className="text-yellow-200 text-2xl">Github</span>
+                    </a>
+                </div>
+                {/* Memory Game */}
+                <div className="flex flex-col items-center px-6 py-3 bg-yellow-200 rounded-xl">
+                    <h2 className="font-mono text-black text-4xl pb-2">Color Splash</h2>
+                    <p className="font-mono text-black text-xl pb-2">
+                        Rudimentary platformer video game developed in Godot with GDScript.
+                    </p>
+                    <a
+                        href="https://github.com/MadHyyper/color-splash"
                         target="_blank"
                         className="flex items-center px-3 py-2 bg-black text-black rounded-xl hover:scale-110 transition-transform">
                             <span className="text-yellow-200 text-2xl">Github</span>
